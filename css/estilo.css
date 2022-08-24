@@ -149,11 +149,12 @@ nav ul{
 	display: grid;
 	justify-content: center;
 	align-items: center;
+	justify-items:center;
 }
 
 .imgMainTamano{
-	height: 90%;
-	width: 100%;
+	height: 95%;
+	width: 95%;
 }
 
 .juntos{
@@ -366,18 +367,20 @@ nav ul{
 	border-width: 5px;
 	border-style: dotted;
 	border-color: black;
-	padding: 10px;
+	padding: 3rem;
+	margin: 3rem;
 }
 
 .center{
 	display: grid;
 	justify-content: center;
-	padding-top: 1rem;
+	align-items: center;
+	justify-items:center;
 }
 
 .imgContacto{
-	height: 90%;
-	width: 100%;
+	height: 190%;
+	width: 90%;
 }
 
 
@@ -444,7 +447,7 @@ nav ul{
 
 	.imgMainTamano{
 		height: 80%;
-		width: 100%;
+		width: 90%;
 }
 
 	/*Index:Cierre;*/
@@ -476,6 +479,14 @@ nav ul{
 
 
 /*Footer:Cierre;*/
+
+/*Contactos:Apertura;*/
+.imgContacto{
+	height: 80%;
+	width: 90%;
+}
+
+/*Contactos:Cierre;*/
 
 
 /*
