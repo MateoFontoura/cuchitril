@@ -1,1 +1,1 @@
-Este es un proyecto de pagina web, para una empresa dedicada a la serigrafia.
+Este proyecto de pagina web, es dedicado a una empresa que trabaja en el sector de la serigrafia.
