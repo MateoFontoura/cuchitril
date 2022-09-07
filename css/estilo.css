@@ -389,36 +389,15 @@ nav ul:hover {
 
 /* Contactos:Apertura */
 
-
-
-.fondoContactos{
-	background-image: url(https://w0.peakpx.com/wallpaper/301/716/HD-wallpaper-contacts-icon.jpg);
-	background-position: top center;
+ .imgContacto{
+	height: 70%;
+	width: 59%;
 }
 
-.form{
-	border-width: 5px;
-	border-style: dotted;
-	border-color: black;
-	padding: 3rem;
-	margin: 3rem;
+.bgcolor{
+	background-color: #98CE54;
 }
-
-.center{
-	display: grid;
-	justify-content: center;
-	align-items: center;
-	justify-items:center;
-}
-
-.imgContacto{
-	height: 190%;
-	width: 90%;
-}
-
-
-
-/* Contactos:Cierre */
+	/* Contactos:Cierre */
 
 
 
@@ -514,10 +493,7 @@ nav ul:hover {
 /*Footer:Cierre;*/
 
 /*Contactos:Apertura;*/
-.imgContacto{
-	height: 80%;
-	width: 90%;
-}
+
 
 /*Contactos:Cierre;*/
 
