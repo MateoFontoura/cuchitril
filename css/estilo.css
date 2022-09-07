@@ -141,9 +141,8 @@ nav ul:hover {
 
 .footer{
 	background-color: black;
-	display: grid;
-	grid-template-areas: "imgFooter textFooter";
-	grid-column: auto auto;
+	color: #98CE54;
+	padding-top: 1rem;
 }
 
 .imgFooter{
@@ -303,14 +302,10 @@ nav ul:hover {
 .fondoGuia{
 	background-image: url(https://w0.peakpx.com/wallpaper/629/102/HD-wallpaper-brown-ruler-with-stand.jpg);
 }
-.guia{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+
 .imgGuia{
-	width: 60%;
-	height: 60%;
+	width: 90%;
+	height: 100%;
 	padding-bottom: 2rem;
 	margin: 0rem 2rem 0rem 2rem;
 }
@@ -336,49 +331,12 @@ nav ul:hover {
 	background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-simple-trend-clothing-store-background-home-image_148028.jpg);
 }
 
-.videoJuntos{
-	display: grid;
-	grid-template-areas: 
-	"video1 video2";
-	grid-template-columns:50% 50%;
-	align-items: center;
-	justify-items: center;
-
-}
-.video1{
-	grid-area: video1;
-	height: 70%;
-	width: 70%;
-	
-}
-
-.video2{
-	grid-area: video2;
-	height: 70%;
-	width: 70%;
-
-}
-
-.juntosContamos{
-	display: grid;
-	grid-template-areas: 
-	"logoViejo logoNuevo";
-	grid-template-columns: 50% 50%;
-	justify-content: space-around;
-	padding: 5px 0px 5px 0px;
-	align-items: center;
-	justify-items: center;
-}
-
-.logoViejo{
-	grid-area: logoViejo;
+.logoViejo{ 
 	height: 90%;
 	width: 90%;
 }
 
-.logoNuevo{
-	grid-area: logoNuevo;
-	height: 90%;
+.logoNuevo{ height: 90%;
 	width: 90%;
 }
 
@@ -397,8 +355,12 @@ nav ul:hover {
 .bgcolor{
 	background-color: #98CE54;
 }
-	/* Contactos:Cierre */
 
+.fondoContactos{
+	background-image: url(https://previews.123rf.com/images/hchjjl/hchjjl1506/hchjjl150601688/40716025-libro-de-contactos-doodle-de-fondo-sin-fisuras-patr%C3%B3n.jpg);	
+}
+
+	/* Contactos:Cierre */
 
 
 /* Media Queire Mobile */
@@ -465,23 +427,7 @@ nav ul:hover {
 	/*Index:Cierre;*/
 
 	/*Guia:Apertura;*/
-	.guia{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-	.imgGuia{
-	width: 90%;
-	height: 90%;
-	padding-bottom: 2rem;
-	margin: 0rem 1rem 0rem 1rem;
-}
 
-	.textGuia{
-	background-color: white;
-	filter: opacity(70%);
-	margin: 0rem 1rem 0rem 1rem;
-}
 }
 
 /*Guia:Cierre;*/
