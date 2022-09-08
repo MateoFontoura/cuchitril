@@ -97,11 +97,6 @@ ol{
 	grid-template-columns: 2fr 9fr;
 }
 
-.logo{
-	grid-area: logo;
-	height: 90%;
-	width: 90%;
-}
 
 .descripcion{
 	grid-area: descripcion;
@@ -143,6 +138,7 @@ nav ul:hover {
 	background-color: black;
 	color: #98CE54;
 	padding-top: 1rem;
+	margin-top: 1rem;
 }
 
 .imgFooter{
@@ -172,95 +168,28 @@ nav ul:hover {
 .fondoIndex{
 	background-image: url(https://i.pinimg.com/originals/29/7f/f6/297ff67061e650c83441cd466530f3b8.jpg);
 	background-position: top center;
-}
-
-.imgMain{
-	display: grid;
-	justify-content: center;
-	align-items: center;
-	justify-items:center;
-}
-
+}		
 .imgMainTamano{
 	height: 95%;
 	width: 95%;
-}
-
-.juntos{
-	justify-content: space-around;
-	display: grid;
-	grid-template-areas: 
-	"imgJuntos imgJuntos1"
-	"textJuntos textJuntos1"
-	"imgJuntos2 imgJuntos3"
-	"textJuntos2 textJuntos3";
-	grid-template-rows: 2fr auto 2fr auto;
-	grid-template-columns:50% 50%; 
-	padding-left: 5%;
-}
-
-.imgJuntos{
-	grid-area: imgJuntos;
-	height: 90%;
-	width: 90%;
-	padding-top: 2rem;
-}
-
-.imgJuntos1{
-	grid-area: imgJuntos1;
-	height: 90%;
-	width: 90%;
-	padding-top: 2rem;
-}
-
-.textJuntos{
-	grid-area: textJuntos;
-	background-color:#98CE54 ;
-	text-align: center;
-	height: 100%;
-	width: 90%;
-}
-.textJuntos1{
-	grid-area: textJuntos1;
-	background-color:#98CE54 ;
+}	
+.textJuntos{	
+	background-color:#98CE54;
 	text-align: center;
 	height: 100%;
 	width: 90%;
 
-}
-.imgJuntos2{
-	grid-area: imgJuntos2;
-	height: 90%;
-	width: 90%; 
-	padding-top: 2rem;
-}
-
-.imgJuntos3{
-	grid-area: imgJuntos3;
-	height: 90%;
+}			
+.imgJuntos{	
 	width: 90%;
-	padding-top: 2rem;
-}
+	margin-bottom: 1rem;
+	margin-top: 1rem; 
+}	
+.deADos{
+	justify-content: space-evenly;
+}	
 
-.textJuntos2{
-	grid-area: textJuntos2;
-	background-color:#98CE54 ;
-	text-align: center;
-	height: 100%;
-	width: 90%;
-
-}
-.textJuntos3{
-	grid-area: textJuntos3;
-	background-color:#98CE54 ;
-	text-align: center;
-	height: 100%;
-	width: 90%;
-}
-
-
-
-/* Index:Cierre */
+	/* Index:Cierre */
 
 
 
@@ -286,6 +215,13 @@ nav ul:hover {
 	width: 90%;
 }
 
+.nav{
+	align-items: flex-end;
+}
+
+.centrado{
+	justify-content: center;
+}
 
 
 
@@ -403,10 +339,7 @@ nav ul:hover {
 		grid-template-rows: auto;
 		grid-template-columns: 3fr 9fr;
 }
-.logo{
-		height: 100%;
-		width: 100%;
-}
+
 
 	nav{
 		grid-area: nav;
