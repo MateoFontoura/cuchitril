@@ -6,37 +6,53 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Courier+Prime&display=swap" rel="stylesheet">
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<!-- Animaciones -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	
+		<!-- Mi css -->
 		<link rel="stylesheet" href="../css/estilo.css">
 		<title>GUIA DE TALLES</title>
 	</head>
 	<body>
-		<header>
-			<div class="gridDescripcion">
-				<a href="../index.html"><img src="../assets/img/logo.png" alt="logo" class="logo"></a>
-				<div class="descripcion">
-					<h3>Cuchitril Serigráfico, nuestro rinconcito en el que jugamos a estampar. 😁🔴🌱💚👕</h3>
+		<!-- Header -->
+		<div class="container-fluid fondoGuia">
+			<div class="row bgcolor">
+				<div class="col-12 col-lg-4">
+					<a href="../index.html"><img src="../assets/img/logo.png" alt="logo"></a>
+				</div>
+				<div class="col-12 col-lg-8 nav">
+					<nav class="navbar navbar-expand-lg navbar-light">
+					  <div class="container-fluid">
+					    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					      <span class="navbar-toggler-icon"></span>
+					    </button>
+					    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					      <div class="navbar-nav">
+					        <a class="nav-link" href="../index.html">Inicio</a>
+					        <a class="nav-link" href="productos.html">Productos</a>
+					        <a class="nav-link active" href="#">Guia de Talles</a>
+					        <a class="nav-link" href="te_contamos.html">Te Contamos</a>
+					        <a class="nav-link" href="contactos.html">Contactos</a>
+					      </div>
+					    </div>
+					  </div>
+					</nav>
 				</div>
 			</div>
-				<nav>
-					<ul>
-						<li><a href="../index.html">Inicio</a></li>
-						<li><a href="productos.html">Productos</a></li>
-						<li><a href="#">Guia de Talles</a></li>
-						<li><a href="te_contamos.html">Te Contamos</a></li>
-						<li><a href="contactos.html">Contactos</a></li>
-					</ul>					
-				</nav>	
-		</header>
-		<main class="fondoGuia">
-			<div class="titulo">
-				<h1>GUIA DE TALLES</h1>	
+			<!-- Main -->
+			<div class=" row">
+				<div class="col-12 col-lg-12 titulo">
+					<h1>GUIA DE TALLES</h1>	
+				</div>
 			</div>
-			<div class="guia">
-				<img class="imgGuia" src="../assets/img/talles.jpeg" alt="guia de talles">				
-				<div class="textGuia">
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<img class="imgGuia" src="../assets/img/talles.jpeg" alt="guia de talles">
+				</div>
+				<div class="col-12 col-lg-6">
 					<h2 data-aos="fade-up">Para saber cuál es tu talle, seguí los siguientes pasos:</h2>
-					<ol>
+					<ol class="textGuia">
 						<li>PECHO: <br>Para saber qué talle tenés, rodeá tus pectorales con una cinta métrica flexible en la parte de mayor volumen.</li>
 						<li>CINTURA:<br> Rodeá la parte más estrecha de tu cintura con una cinta métrica.</li>
 						<li>CADERA:<br> Parate con los pies juntos y rodea tus caderas con una cinta métrica en la parte de mayor volumen.</li>
@@ -44,18 +60,19 @@
 					</ol>
 				</div>
 			</div>
-		</main>
-		<footer>
-			<div class="footer">
-				<div class="imgFooter">
+			<!-- Footer -->
+			<div class="row footer">
+				<div class="col-2 col-lg-2">
 					<a href="https://www.instagram.com/verdefuegoserigrafia/?hl=es-la" target="_blank"><img src="../assets/img/ig.png" alt="logo de ig"></a>
 				</div>
-				<div class="textFooter">
-					<p>Brazo Oriental- Montevideo. Celular de Contacto:099-533-461. © Copyright 2022 - Todos los derechos reservados. Verde Fuego S.A.</p>
+				<div class="col-10 col-lg-10">
+					<p>Brazo Oriental- Montevideo. Celular de Contacto:099-533-461. © Copyright 2022 - Todos los derechos
+					reservados. Verde Fuego S.A.</p>
 				</div>
 			</div>
-		</footer>
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
  			 AOS.init();
 		</script>
