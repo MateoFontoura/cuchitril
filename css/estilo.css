@@ -6,19 +6,23 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 48px;
-  animation-duration: 3s;
-  animation-name: aparecer;
-  animation-iteration-count: 1; }
+  margin-bottom: 0rem;
+  animation-duration: 3s; }
+  h1:hover {
+    animation-name: aparecer;
+    animation-iteration-count: 1; }
 
 h2 {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 38px; }
+  font-size: 38px;
+  margin-bottom: 0rem; }
 
 h3 {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 28px; }
+  font-size: 28px;
+  margin-bottom: 0rem; }
 
 .titulo {
   color: #98CE54;
@@ -31,6 +35,8 @@ h3 {
 
 @keyframes aparecer {
   0% {
+    opacity: 1; }
+  50% {
     opacity: 0; }
   100% {
     opacity: 1; } }
@@ -40,7 +46,7 @@ h3 {
 
 @media screen and (max-width: 699px) {
   h1 {
-    font-size: 40px; }
+    font-size: 32px; }
   h2 {
     font-size: 28px; }
   h3 {
