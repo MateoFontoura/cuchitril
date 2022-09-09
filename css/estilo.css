@@ -5,6 +5,12 @@ body{font-family: 'Courier Prime', monospace;
 	overflow-wrap: hidden;
 }	
 
+:root {
+	--colorPrimario:#98CE54;
+	--negro:black;
+	--blanco:white;
+}
+
 h1{
 	font-weight: bold; 
 	text-transform: uppercase;
@@ -15,7 +21,7 @@ h1{
 }
 
 .bgcolor{
-	background-color:#98CE54;
+	background-color:var(--colorPrimario);
 }
 
 @keyframes aparecer {
@@ -45,7 +51,7 @@ h3{
 .titulo{
 	color: #98CE54;
 	text-align: center;
-	background-color: black;
+	background-color: var(--negro);
 	width: 290px;
 	margin: auto;
 	margin-bottom:1rem;
@@ -68,7 +74,7 @@ h3{
 
 
 .footer{
-	background-color: black;
+	background-color: var(--negro);
 	color: #98CE54;
 	padding-top: 1rem;
 	margin-top: 1rem;
@@ -82,7 +88,7 @@ h3{
 }		
 
 .textJuntos{	
-	background-color:#98CE54;
+	background-color:var(--colorPrimario);
 	text-align: center;
 	height: 100%;
 	width: 90%;
@@ -130,7 +136,7 @@ h3{
 }
 
 .textGuia{
-	background-color: white;
+	background-color: var(--blanco);
 	filter: opacity(70%);
 	color: black;
 
@@ -207,7 +213,7 @@ form{
 	.titulo{
 		width: 240px;	
 }	
-
+}
 /*
 background-color		color de fondo 
 font-size               tamanio de letra
