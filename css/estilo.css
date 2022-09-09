@@ -80,6 +80,10 @@ h3 {
 .deADos {
   justify-content: space-evenly; }
 
+@media screen and (max-width: 699px) {
+  .imgJuntos {
+    height: 9rem; } }
+
 .fondoProductos {
   background-image: url(https://img.freepik.com/vector-gratis/moda-accesorios-ropa-patrones-fisuras_1284-3636.jpg?w=2000);
   background-position: top center; }
@@ -95,7 +99,7 @@ h3 {
   width: 90%;
   height: 100%;
   padding-bottom: 2rem;
-  margin: 0rem 2rem 0rem 2rem; }
+  margin: 0rem 0rem 0rem 2rem; }
 
 .textGuia {
   background-color: white;
@@ -120,13 +124,39 @@ h3 {
 .fondoContactos {
   background-image: url(https://previews.123rf.com/images/hchjjl/hchjjl1506/hchjjl150601688/40716025-libro-de-contactos-doodle-de-fondo-sin-fisuras-patr%C3%B3n.jpg); }
 
-form {
-  background-color: gray;
-  margin: 1rem;
-  padding-right: 10rem;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-bottom: 1rem; }
+@media screen and (min-width: 700px) {
+  form {
+    background-color: gray;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    width: 600px;
+    height: 500px; }
+    form textarea {
+      width: 500px;
+      height: 126px; }
+    form .form-control {
+      width: 90%; } }
+
+@media screen and (max-width: 699px) {
+  form {
+    background-color: gray;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    width: 90%; }
+    form textarea {
+      width: 13rem;
+      height: 4rem; }
+  .form-control {
+    width: 90%; }
+  .mb-3 {
+    margin-bottom: 0rem !important; }
+  .imgContacto {
+    height: 70%;
+    width: 90%; } }
 
 .footer {
   background-color: black;

@@ -6,12 +6,41 @@
 .fondoContactos{
 	background-image: url(https://previews.123rf.com/images/hchjjl/hchjjl1506/hchjjl150601688/40716025-libro-de-contactos-doodle-de-fondo-sin-fisuras-patr%C3%B3n.jpg);
 }
-
+@media screen and (min-width: 700px){
 form{
 	background-color: $colorGris;
-	margin: 1rem;
-	padding-right: 10rem;
+	margin: 1rem;	
 	padding-top: 1rem;
 	padding-left: 1rem;
 	padding-bottom: 1rem;
+	width: 600px;
+	height: 500px;
+	textarea{
+	width: 500px;
+	height: 126px;
+	}
+	.form-control{width: 90%;}
+}
+}
+
+@media screen and (max-width: 699px){
+	form{
+	background-color: $colorGris;
+	margin: 1rem;	
+	padding-top: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	width: 90%;
+	textarea{
+	width: 13rem;
+	height: 4rem;
+	}
+
+}
+.form-control{width: 90%;}
+.mb-3{margin-bottom: 0rem !important;}
+.imgContacto{
+	height: 70%;
+	width: 90%;
+}
 }
