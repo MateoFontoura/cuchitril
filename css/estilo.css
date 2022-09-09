@@ -1,6 +1,129 @@
-h1 {
+body {
   font-family: 'Courier Prime', monospace;
   overflow-wrap: hidden; }
 
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 48px;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: 1; }
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 38px; }
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 28px; }
+
 .titulo {
+  color: #98CE54;
+  text-align: center;
+  background-color: black;
+  width: 290px;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.bgcolor {
   background-color: #98CE54; }
+
+@media screen and (max-width: 699px) {
+  h1 {
+    font-size: 40px; }
+  h2 {
+    font-size: 28px; }
+  h3 {
+    font-size: 18px; }
+  p {
+    font-size: 14px; }
+  .titulo {
+    width: 240px; } }
+
+.nav {
+  align-items: flex-end; }
+
+.centrado {
+  justify-content: center; }
+
+.fondoIndex {
+  background-image: url(https://i.pinimg.com/originals/29/7f/f6/297ff67061e650c83441cd466530f3b8.jpg);
+  background-position: top center; }
+
+.textJuntos {
+  background-color: #98CE54;
+  text-align: center;
+  height: 100%;
+  width: 90%; }
+
+.imgJuntos {
+  width: 90%;
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.deADos {
+  justify-content: space-evenly; }
+
+.fondoProductos {
+  background-image: url(https://img.freepik.com/vector-gratis/moda-accesorios-ropa-patrones-fisuras_1284-3636.jpg?w=2000);
+  background-position: top center; }
+
+.imgProductos {
+  height: 90%;
+  width: 90%; }
+
+.fondoGuia {
+  background-image: url(https://w0.peakpx.com/wallpaper/629/102/HD-wallpaper-brown-ruler-with-stand.jpg); }
+
+.imgGuia {
+  width: 90%;
+  height: 100%;
+  padding-bottom: 2rem;
+  margin: 0rem 2rem 0rem 2rem; }
+
+.textGuia {
+  background-color: white;
+  filter: opacity(70%);
+  color: black; }
+
+.fondoContamos {
+  background-image: url(https://cdn.ipadizate.com/2019/10/ios-4-1.jpg); }
+
+.logoViejo {
+  height: 90%;
+  width: 90%; }
+
+.logoNuevo {
+  height: 90%;
+  width: 90%; }
+
+.imgContacto {
+  height: 70%;
+  width: 59%; }
+
+.fondoContactos {
+  background-image: url(https://previews.123rf.com/images/hchjjl/hchjjl1506/hchjjl150601688/40716025-libro-de-contactos-doodle-de-fondo-sin-fisuras-patr%C3%B3n.jpg); }
+
+form {
+  background-color: gray;
+  margin: 1rem;
+  padding-right: 10rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem; }
+
+.footer {
+  background-color: black;
+  color: #98CE54;
+  padding-top: 1rem;
+  margin-top: 1rem; }
