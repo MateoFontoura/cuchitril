@@ -4,11 +4,9 @@
 }		
 
 .textJuntos{	
-	background-color: $colorPrincipal;
+	background-color: map-get($coloresPrincipales,principal);
 	text-align: center;
-	height: 100%;
-	width: 90%;
-
+	@include medidas(100%,90%);
 }			
 .imgJuntos{	
 	width: 90%;

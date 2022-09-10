@@ -1,6 +1,14 @@
+$coloresPrincipales:(
+	principal:#98CE54,
+	negro:black,
+	blanco:white,
+	gris:gray
+);
 
-$colorPrincipal:#98CE54;
-$colorNegro:black;
-$colorBlanco:white;
-$colorGris:gray;
+
+@each $clave, $valor in $coloresPrincipales{
+	.#{$clave}{
+	color: $valor;
+	}
+}
 

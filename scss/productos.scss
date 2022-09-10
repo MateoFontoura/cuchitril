@@ -5,7 +5,6 @@
 }
 
 .imgProductos{
-	height: 90%;
-	width: 90%;
+	@include medidas(90%,90%);
 }	
 

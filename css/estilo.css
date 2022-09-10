@@ -1,28 +1,34 @@
+.principal {
+  color: #98CE54; }
+
+.negro {
+  color: black; }
+
+.blanco {
+  color: white; }
+
+.gris {
+  color: gray; }
+
 body {
   font-family: 'Courier Prime', monospace;
   overflow-wrap: hidden; }
 
-h1 {
+h1, h2, h3 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 48px;
   margin-bottom: 0rem;
   animation-duration: 3s; }
-  h1:hover {
+  h1:hover, h2:hover, h3:hover {
     animation-name: aparecer;
     animation-iteration-count: 1; }
 
-h2 {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 38px;
-  margin-bottom: 0rem; }
+h2, h3 {
+  font-size: 38px; }
 
 h3 {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 28px;
-  margin-bottom: 0rem; }
+  font-size: 28px; }
 
 .titulo {
   color: #98CE54;
@@ -45,9 +51,9 @@ h3 {
   background-color: #98CE54; }
 
 @media screen and (max-width: 699px) {
-  h1 {
+  h1, h2, h3 {
     font-size: 32px; }
-  h2 {
+  h2, h3 {
     font-size: 28px; }
   h3 {
     font-size: 18px; }
@@ -69,8 +75,8 @@ h3 {
 .textJuntos {
   background-color: #98CE54;
   text-align: center;
-  height: 100%;
-  width: 90%; }
+  width: 100%;
+  height: 90%; }
 
 .imgJuntos {
   width: 90%;
@@ -89,8 +95,8 @@ h3 {
   background-position: top center; }
 
 .imgProductos {
-  height: 90%;
-  width: 90%; }
+  width: 90%;
+  height: 90%; }
 
 .fondoGuia {
   background-image: url(https://w0.peakpx.com/wallpaper/629/102/HD-wallpaper-brown-ruler-with-stand.jpg); }
@@ -110,15 +116,14 @@ h3 {
   background-image: url(https://cdn.ipadizate.com/2019/10/ios-4-1.jpg); }
 
 .logoViejo {
-  height: 90%;
-  width: 90%; }
+  width: 90%;
+  height: 90%; }
 
 .logoNuevo {
-  height: 90%;
-  width: 90%; }
+  width: 90%;
+  height: 90%; }
 
 .imgContacto {
-  height: 70%;
   width: 59%; }
 
 .fondoContactos {
@@ -128,10 +133,8 @@ h3 {
   form {
     background-color: gray;
     margin: 1rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    width: 600px;
+    padding: 1rem;
+    width: 90%;
     height: 500px; }
     form textarea {
       width: 500px;
@@ -143,19 +146,16 @@ h3 {
   form {
     background-color: gray;
     margin: 1rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     width: 90%; }
     form textarea {
-      width: 13rem;
-      height: 4rem; }
+      width: 301px;
+      height: 64px; }
   .form-control {
     width: 90%; }
   .mb-3 {
     margin-bottom: 0rem !important; }
   .imgContacto {
-    height: 70%;
     width: 90%; } }
 
 .footer {

@@ -1,0 +1,12 @@
+$ancho:1000px;
+$ancho100:100%;
+
+@mixin medidas($width, $height){
+	width: $width;
+	height: $height;
+}
+
+@mixin bold-uppercase{
+	font-weight: bold; 
+	text-transform: uppercase;
+}
