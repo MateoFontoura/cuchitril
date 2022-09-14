@@ -30,6 +30,12 @@ h2, h3 {
 h3 {
   font-size: 28px; }
 
+.tituloStrong {
+  font-size: 38px; }
+
+.tituloStrongChico {
+  font-size: 28px; }
+
 .titulo {
   color: #98CE54;
   text-align: center;
@@ -60,7 +66,11 @@ h3 {
   p {
     font-size: 14px; }
   .titulo {
-    width: 240px; } }
+    width: 240px; }
+  .tituloStrong {
+    font-size: 28px; }
+  .tituloStrongChico {
+    font-size: 18px; } }
 
 .nav {
   align-items: flex-end; }
@@ -79,7 +89,8 @@ h3 {
   height: 90%; }
 
 .imgJuntos {
-  width: 90%;
+  width: 100%;
+  height: 90%;
   margin-bottom: 1rem;
   margin-top: 1rem; }
 
@@ -122,6 +133,13 @@ h3 {
 .logoNuevo {
   width: 90%;
   height: 90%; }
+
+.videoMedida {
+  height: 30rem; }
+
+@media screen and (max-width: 699px) {
+  .videoMedida {
+    height: 15rem; } }
 
 .imgContacto {
   width: 59%; }

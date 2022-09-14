@@ -24,6 +24,12 @@ h3{
 	font-size: 28px;
 
 } 
+.tituloStrong{
+	font-size: 38px;
+}
+.tituloStrongChico{
+	font-size: 28px;
+}
 	
 .titulo{
 	color: map-get($coloresPrincipales,principal);
@@ -70,5 +76,11 @@ h3{
 
 	.titulo{
 		width: 240px;	
+}
+	.tituloStrong{
+	font-size: 28px;
+}
+	.tituloStrongChico{
+	font-size: 18px;
 }
 }

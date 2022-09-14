@@ -9,3 +9,13 @@
 .logoNuevo{
 	@include medidas(90%,90%);
 }
+
+.videoMedida{
+	height: 30rem;
+}
+
+@media screen and (max-width: 699px){
+	.videoMedida{
+	height: 15rem;
+}
+}
