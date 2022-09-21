@@ -5,6 +5,13 @@
 .fondoContactos{
 	background-image: url(https://previews.123rf.com/images/hchjjl/hchjjl1506/hchjjl150601688/40716025-libro-de-contactos-doodle-de-fondo-sin-fisuras-patr%C3%B3n.jpg);
 }
+
+.btn-primary {
+    color: map-get($coloresPrincipales,negro);
+    background-color: map-get($coloresPrincipales,principal);
+    border-color: map-get($coloresPrincipales,principal);
+}
+
 @media screen and (min-width: 700px){
 form{
 	background-color: map-get($coloresPrincipales,gris);

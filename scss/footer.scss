@@ -4,4 +4,14 @@
 	color: map-get($coloresPrincipales,principal);
 	padding-top: 1rem;
 	margin-top: 1rem;
+	text-align: center;
 }	
+.footerDos{
+	@extend .footer;
+	margin-top: 0rem;
+	padding-bottom: 1rem;
+}
+
+a{
+	text-decoration: none;
+}

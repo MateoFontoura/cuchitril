@@ -10,6 +10,10 @@
 .gris {
   color: gray; }
 
+.textNav {
+  font-size: 20px;
+  line-height: 25px; }
+
 body {
   font-family: 'Courier Prime', monospace;
   overflow-wrap: hidden; }
@@ -55,6 +59,9 @@ h3 {
 
 .bgcolor {
   background-color: #98CE54; }
+
+.center {
+  text-align: center; }
 
 @media screen and (max-width: 699px) {
   h1, h2, h3 {
@@ -147,6 +154,11 @@ h3 {
 .fondoContactos {
   background-image: url(https://previews.123rf.com/images/hchjjl/hchjjl1506/hchjjl150601688/40716025-libro-de-contactos-doodle-de-fondo-sin-fisuras-patr%C3%B3n.jpg); }
 
+.btn-primary {
+  color: black;
+  background-color: #98CE54;
+  border-color: #98CE54; }
+
 @media screen and (min-width: 700px) {
   form {
     background-color: gray;
@@ -176,8 +188,16 @@ h3 {
   .imgContacto {
     width: 90%; } }
 
-.footer {
+.footer, .footerDos {
   background-color: black;
   color: #98CE54;
   padding-top: 1rem;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  text-align: center; }
+
+.footerDos {
+  margin-top: 0rem;
+  padding-bottom: 1rem; }
+
+a {
+  text-decoration: none; }

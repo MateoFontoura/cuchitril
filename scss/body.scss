@@ -57,6 +57,10 @@ h3{
 	background-color:map-get($coloresPrincipales,principal);
 }
 
+.center{
+	text-align: center;
+}
+
 @media screen and (max-width: 699px){
 	h1{ 
  		font-size: 32px;
