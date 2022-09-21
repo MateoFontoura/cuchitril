@@ -5,12 +5,12 @@
 	padding-top: 1rem;
 	margin-top: 1rem;
 	text-align: center;
+	padding-bottom: 1rem;
 }	
 .footerDos{
 	@extend .footer;
-	margin-top: 0rem;
-	padding-bottom: 1rem;
-}
+	margin-top: 0rem;	
+}	
 
 a{
 	text-decoration: none;
